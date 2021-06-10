@@ -1,0 +1,38 @@
+@import url(./body.css);
+
+.container {
+    background-color: lightgreen;
+    align-items: center;
+    border-radius: 15px;
+    border: 8px solid #ccc; 
+    padding: 40px;
+    margin: 100px auto;
+    width: 300px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-SemiBold.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .container {
+        column-count: 2;
+        border: none;
+    }
+}

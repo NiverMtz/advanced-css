@@ -1,0 +1,14 @@
+.container {
+    color: rgba(255,56,34,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: hsla(30, 34%, 50%,0.4);
+    padding: 10px;
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 50px;
+}

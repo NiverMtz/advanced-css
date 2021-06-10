@@ -1,0 +1,36 @@
+.container {
+    
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    background-color: rgb(158, 144, 238);
+    padding: 10px;
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item {
+    flex-grow: 0.5;
+    padding-top: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(247, 6, 98);
+    margin-left: 2px;
+    order: 3;
+}
+
+.item2 {
+    align-self: flex-end;
+    order: 1;
+}
+
+.item3 {
+    order: 2;
+}
